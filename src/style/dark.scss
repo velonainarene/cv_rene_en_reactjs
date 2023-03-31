@@ -1,0 +1,117 @@
+.app.dark{
+    background-color: #2e2b2b;
+    color: rgb(238, 234, 234);
+    color: rgb(156, 156, 156);
+
+    .home{
+        background-color: #2e2b2b;
+        color: white;
+        border-bottom: 0.5px solid rgb(156, 156, 156);
+
+        .home__social{
+            .home__social-icon{
+                color: white; 
+              
+            }
+            
+            .home__scroll{
+            color: white;
+            background-color:  rgb(156, 156, 156);
+                 }
+            .home__data{
+                color: rgb(156, 156, 156);
+                .home__container{
+                    .button{
+                        border: none;
+                        height: 20%;
+                        width: 34%;
+                        text-align: center;
+                        display: block;
+                        border-radius: 2rem;
+                       background-color: #2e2b2b;
+                        color:white;
+                }
+            } 
+        }
+    }
+}
+    .header{
+        background-color: #3a3939;
+        color: white;
+    }
+
+    .about{
+        background-color: #2e2b2b;
+        .about__info {
+            .about__box{
+                color: white;
+                background-color: rgba(98, 97, 97, 0.3);
+            }
+        }
+    }
+
+
+
+    .skills__content{
+        background-color: rgba(98, 97, 97, 0.3);
+        color: white;
+    }
+    .services__content{
+        background-color: rgba(98, 97, 97, 0.3);
+        color: white;
+
+        .services__modal-content{
+            color: #2e2b2b;
+        }
+    }
+    .testimonial__card{
+        background-color: rgba(98, 97, 97, 0.3);
+        color: white;
+
+        
+       
+    }
+    .swiper-pagination-bullet{
+        background-color:white !important;
+    }
+    .swiper-pagination-bullet-active{
+        background-color: white !important;
+    }
+
+
+    .contact__container{
+        .contact__card{
+            color: white;
+            background-color: rgba(98, 97, 97, 0.3);
+        }
+        .contact__content{
+            color: white;
+
+           .contact__form-div{ 
+
+            .contact__form-tag{
+                background-color:transparent;
+            }
+            .contact__form-input{
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border: 2px solid rgba(184, 178, 178, 0.3);
+                background: none;
+                color: whitesmoke;
+                outline: none;
+                border-radius: 0.75rem;
+                padding: 1.5rem;
+                z-index: 1;
+            }
+            }
+        }
+    }
+    .footer{
+    background-color: #2e2b2b;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+}
